@@ -13,8 +13,8 @@ public class Person {
 		this.gender = gender;
 	}
 
-	public void read() {
-		System.out.println(this.name + " is reading the book titled: ");
+	public void read(Book item) {
+		System.out.println(this.name + " is reading the book titled:" + item.title);
 	}
 
 	public boolean isStillBreathing() {
